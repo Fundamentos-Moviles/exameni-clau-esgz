@@ -14,7 +14,7 @@ class _BuscaminasExam1State extends State<BuscaminasExam1> {
   //lista de si el cuadrito ya fue volteado o no
   List<bool> cuadritoVolteado = List.filled(totalCuadritos, false);
   //lista de si en el cuadrito hay bomba o no
-  List<bool> cuadritoEsBomba = List.filled(totalCuadritos, false);
+  List<bool> cuadritoEsBomba = Lis|t.filled(totalCuadritos, false);
   //juego terminado
   bool juegoYaValio = false;
 
